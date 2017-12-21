@@ -6,34 +6,14 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-var'article-one':{
-    title: 'article one | samar iqbal',
-    heading: 'Article one',
-    date: '21 dec 2017',
-    content:
-            `<p>
-                  this is my first article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
-            </p>
-            <p>
-                 this is my first article..and... this is my firt article..
-            </p>
-            <p>
-                 this is my first article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
-            </p>`},    
 var 'article-two':{
     title: 'Article two | samar iqbal',
     heading: 'Article two',
     date: '21 dec 2017',
     content:
             `<p>
-                  this is my second article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
-            </p>
-            <p>
-                 this is my second article..and... this is my firt article..
-            </p>
-            <p>
-                 this is my second article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
-            </p>`
+                  this is my second article..
+             </p>`
 },
 var 'article-three':{
     title: 'Article three | samar iqbal',
@@ -41,15 +21,9 @@ var 'article-three':{
     date: '22 dec 2017',
     content:
             `<p>
-                  this is my third article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
-            </p>
-            <p>
-                 this is my third article..and... this is my firt article..
-            </p>
-            <p>
-                 this is my third article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
+                  this is my third article.. 
             </p>`}
-};
+}:
 function createTempelate(data){
     var title=data.title;
     var date=data.date;
