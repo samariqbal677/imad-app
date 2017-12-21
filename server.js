@@ -5,6 +5,60 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articletwo={
+    title: 'Article two | samar iqbal',
+    heading: 'Article two',
+    date: '21 dec 2017',
+    content:
+            `<p>
+                  this is my second article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
+            </p>
+            <p>
+                 this is my second article..and... this is my firt article..
+            </p>
+            <p>
+                 this is my second article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
+            </p>`
+};
+
+function createTempelate(data){
+    var title=data.title;
+    var date=data.date;
+    var heading=data.heading;
+    var content=data.content;
+
+var htmlTempelate=`<html>
+    <head>
+        <title>
+            ${title}
+            
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link href="/ui/style.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="container">
+    <div>
+        <a href="/">home</a>
+    </div>
+    <hr/>
+    <h3>
+       ${heading}
+        </h3>
+        <div>
+            ${date}
+        </div>
+        <div>
+         ${content}
+        </div>
+    
+    </div>
+    </body>
+</html>
+`;
+return htmlTempelate;
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
@@ -14,7 +68,7 @@ app.get('/article-one',function (req,res){
 });
 
 app.get('/article-two',function (req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+  res.send(createTempelate(articletwo));
 });
 
 
