@@ -6,16 +6,16 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-var 'article-two':{
-    title: 'Article two | samar iqbal',
-    heading: 'Article two',
+'article-two':{
+    title: 'article two | samar iqbal',
+    heading: 'article two',
     date: '21 dec 2017',
     content:
             `<p>
                   this is my second article..
              </p>`
 },
-var 'article-three':{
+'article-three':{
     title: 'Article three | samar iqbal',
     heading: 'Article three',
     date: '22 dec 2017',
@@ -23,7 +23,7 @@ var 'article-three':{
             `<p>
                   this is my third article.. 
             </p>`}
-}:
+};
 function createTempelate(data){
     var title=data.title;
     var date=data.date;
