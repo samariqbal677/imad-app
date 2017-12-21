@@ -6,7 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-var articletwo:{
+var'article-one':{
+    title: 'article one | samar iqbal',
+    heading: 'Article one',
+    date: '21 dec 2017',
+    content:
+            `<p>
+                  this is my first article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
+            </p>
+            <p>
+                 this is my first article..and... this is my firt article..
+            </p>
+            <p>
+                 this is my first article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
+            </p>`},    
+var 'article-two':{
     title: 'Article two | samar iqbal',
     heading: 'Article two',
     date: '21 dec 2017',
@@ -21,9 +35,10 @@ var articletwo:{
                  this is my second article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
             </p>`
 },
-var articlethree:{title: 'Article three | samar iqbal',
+var 'article-three':{
+    title: 'Article three | samar iqbal',
     heading: 'Article three',
-    date: '21 dec 2017',
+    date: '22 dec 2017',
     content:
             `<p>
                   this is my third article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and... this is my firt article..and...
@@ -77,17 +92,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function (req,res){
- res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
-});
-
-app.get('/article-two',function (req,res){
-  res.send(createTempelate(articletwo));
-});
-
-
-app.get('/article-three',function (req,res){
- res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+app.get('/:articleName',function (req,res){
+  var articleName = req.params.articleName;
+  res.send(createTempelate(articles[articleName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
