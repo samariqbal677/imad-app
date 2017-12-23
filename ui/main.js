@@ -1,5 +1,8 @@
-console.log('Loaded!');
+var button = document.getElementById('counter');
+var counter = 0;
 
-var element=document.getElementById('main-text');
-
-element.innerHtml='new value';
+button.onclick = function () {
+    counter= counter+1;
+    var span = document.getElementById('counter');
+    span.innerHTML =counter.toString();
+};
