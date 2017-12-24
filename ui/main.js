@@ -3,9 +3,7 @@ var button = document.getElementById('counter');
 button.onclick = function () {
 
         
-    };
-    request.open('GET','http://samariqbal677.imad.hasura-app.io/counter',true);
-    request.send(null);
+
     
 };
 
@@ -22,6 +20,10 @@ submit.onclick =function(){
             span.innerHTML = counter.toString();
         }
     }
+        };
+    request.open('GET','http://samariqbal677.imad.hasura-app.io/counter',true);
+    request.send(null);
+    
     var names=request.responseText;
     names=JSON.parse(names);
     var list = '';
