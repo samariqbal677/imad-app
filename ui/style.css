@@ -1,29 +1,40 @@
-body {
-    font-family: sans-serif;
-    margin-top: 60px;
+p {
+  font-family: Arial;
 }
 
-.center {
-    text-align: center;
+h1 {
+  color: maroon;
 }
 
-.text-big {
-    font-size: 200%;
+h2.destination {
+  font-family: cursive;
 }
 
-.bold {
-    font-weight: bold;
+.title {
+  color: teal;
 }
 
-.img-medium {
-    height: 200px;
+.uppercase {
+  text-transform: uppercase;
 }
-.container{
-max-width: 800px;
-margin: 0 auto;
-font-family: sans-serif;
-padding-left: 20px;
-padding-right: 20px;
+.publish-time {
+  color: gray;
+}
 
-}   
+.cursive {
+  font-family: cursive;
+}
 
+.capitalize {
+  text-transform: capitalize;
+}
+
+.description h5 {
+  color: teal;
+}
+h5{
+  color: rebeccapurple !important;
+}
+h5,p{
+  font-family: Georgia;
+}
