@@ -102,9 +102,21 @@ app.get('/submit-name', function(req,res){
     res.send(JSON.stringify(names));
 });
 
-app.get('/:articleName',function (req,res){
-  var articleName = req.params.articleName;
-  res.send(createTempelate(articles[articleName]));
+app.get('/article/:articleName',function (req,res){
+  pool.query("SELECT 8* FROM aricle WHERE title =" + req.parms.articleName , function(err, result){
+     if(err){
+         res.status(500).send(err.toString());
+     } else{
+         if(result.rows.length===0){
+             res.status(404).send('Article not found');
+         }  else{
+             var articleData = result.rows[0];
+               res.send(createTempelate(articleData));
+         }  
+     }
+  });
+  
+
 });
 
 app.get('/ui/style.css', function (req, res) {
