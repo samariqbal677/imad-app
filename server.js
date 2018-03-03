@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 var pool= require('pg').pool;
 
-var config={
+var config= {
     user:'johnfernandes3543',
     database:'johnfernandes3543',
     host:'db.imad.hasura-app.io',
@@ -74,11 +74,11 @@ return htmlTempelate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-var pool=new pool(config);
+var pool= new pool(config);
 app.get('/test-db', function(req,res){
      //make a select request
     //return a response with the result
-    pool.query('SELECT * FROM test', function(err,result){
+    pool.query('SELECT * FROM test', function(err, result){
         if(err){
             res.status(500).send(err.toString());
         }
