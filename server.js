@@ -14,27 +14,6 @@ var config= {
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
-'article-two':{
-    title: 'article two | samar iqbal',
-    heading: 'article two',
-    date: '21 dec 2017',
-    content:
-            `<p>
-                  this is my second article..
-                  and i am doing good.
-                  How you doing...
-             </p>`
-},
-'article-three':{
-    title: 'Article three | samar iqbal',
-    heading: 'Article three',
-    date: '22 dec 2017',
-    content:
-            `<p>
-                  this is my third article.. 
-            </p>`}
-};
 function createTempelate(data){
     var title=data.title;
     var date=data.date;
