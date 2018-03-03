@@ -1,14 +1,14 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var pool= require('pg').pool;
+var pool = require('pg').pool;
 
 var config= {
     user:'johnfernandes3543',
     database:'johnfernandes3543',
     host:'db.imad.hasura-app.io',
     port:'5432',
-    password: process.env.DB_PASSWORD
+    password: 'process.env.DB_PASSWORD'
 };
 
 var app = express();
@@ -74,6 +74,7 @@ return htmlTempelate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 var pool= new pool(config);
 app.get('/test-db', function(req,res){
      //make a select request
