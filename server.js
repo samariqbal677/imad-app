@@ -103,7 +103,7 @@ app.get('/submit-name', function(req,res){
 });
 
 app.get('/article/:articleName',function (req,res){
-  pool.query("SELECT 8* FROM aricle WHERE title =" + req.parms.articleName , function(err, result){
+  pool.query("SELECT 8* FROM aricle WHERE title ='" + req.parms.articleName +"'" , function(err, result){
      if(err){
          res.status(500).send(err.toString());
      } else{
