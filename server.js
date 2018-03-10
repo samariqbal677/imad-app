@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'coco98',
-    database: 'coco98',
+    user: 'johnfernandes3543',
+    database: 'johnfernandes3543',
     host: 'db.imad.hasura-app.io',
     port: '5432',
     password: process.env.DB_PASSWORD
@@ -86,7 +86,7 @@ app.get('/hash/:input', function(req, res) {
 
 app.post('/create-user', function (req, res) {
    // username, password
-   // {"username": "tanmai", "password": "password"}
+   // {"username": "johnfernandes3543", "password": "password"}
    // JSON
    var username = req.body.username;
    var password = req.body.password;
