@@ -7,6 +7,8 @@ function loadLoginForm () {
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
         <br/>
+        <br/>
+        <br/>
         <a href = "https://accounts.google.com/signin" >Login with Google</a>
         
         `;
