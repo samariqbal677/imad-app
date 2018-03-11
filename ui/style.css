@@ -2,6 +2,15 @@ body {
     font-family: sans-serif;
     margin-top: 60px;
     background-color: mintcream;
+     padding: 0;
+  margin: 0;
+  background: #F7F7F7;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
 }
 
 .center {
@@ -46,6 +55,12 @@ padding-right: 20px;
 
 marquee{
     color : red;
+}
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  height: 400px;
+  background-position: center center;
 }
 
 
