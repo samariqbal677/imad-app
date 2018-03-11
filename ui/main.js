@@ -6,6 +6,9 @@ function loadLoginForm () {
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
         <input type="submit" id="register_btn" value="Register" />
+        <br/>
+        <a href = "https://accounts.google.com/signin" >Login with Google</a>
+        
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
