@@ -15,7 +15,7 @@ function loadLoginForm () {
     var counter=0;
     
     button.onclick = function(){
-        counter = counter + 1;
+        counter = counter + 2002;
         var span = document.getElementById('count');
         span.innerHTML = counter.toString();
     };
