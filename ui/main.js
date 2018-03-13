@@ -9,9 +9,10 @@ function loadLoginForm () {
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
+    
+    //counter code
     var button = document.getElementById('counter');
     var counter=0;
-    
     
     button.onclick = function(){
         counter = counter + 1;
@@ -19,16 +20,7 @@ function loadLoginForm () {
         span.innerHTML = counter.toString();
     };
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    // Submit username/password to login
+     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
         // Create a request object
