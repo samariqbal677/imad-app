@@ -9,6 +9,25 @@ function loadLoginForm () {
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
+    var button = document.getElementById('counter');
+    var counter=0;
+    
+    
+    button.onclick = function(){
+        counter = counter + 1;
+        var span = document.getElementById('count');
+        span.innerHTML = counter.toString();
+    };
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
