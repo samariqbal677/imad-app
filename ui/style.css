@@ -71,3 +71,33 @@ marquee{
 }
 
 
+.gridarea{
+    display: grid;
+  max-width: 90px;
+  position: relative;
+  margin: auto;
+  grid-gap: 500px;
+  grid-template-area:
+                        "left right"
+                        ;
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
+    
+}
+
+
+
+
+
+.left {
+  background-color: dodgerblue;
+   grid-area: left;
+}
+
+.right {
+  background-color: beige;
+   grid-area: right;
+}
+
+
+
