@@ -41,7 +41,7 @@ nav {
 }
 
 .overlap {
-  background-color: lightsteelblue;
+  background-color: lightyellow;
   grid-area: 4 / 4/ 9 / 7;
   height: 1100px;
 }
