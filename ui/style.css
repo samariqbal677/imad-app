@@ -85,6 +85,6 @@ marquee{
 }
 
 .left {
-  background-color: beige;
+  background-color: blue;
   grid-area: 4 / 5 / 9 / 7;
 }
