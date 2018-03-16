@@ -1,5 +1,5 @@
 body{
-    background-color: lightsteelblue;
+    background-color: lightyellow;
 }
 
 .container {
@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 header {
-  background-color: lightsteelblue;
+  background-color: lightyellow;
   grid-area: 1 / 1 / 3 / 10;
    height: 400px;
   background-position: center center;
@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-  background-color: lightsteelblue;
+  background-color: grey;
   grid-area: 3 / 1 / 4 / 10;
   height: 100px;
 }
