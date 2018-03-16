@@ -44,7 +44,6 @@ header { background-image: url(http://www.makecovers.com/wp-content/uploads/2015
   height: 400px;
   background-position: center center;
   background-color: dodgerblue;
-  grid-area: 1 / 1 / 3 / 7;
 }
 .comment {
     margin-left: 10px;
