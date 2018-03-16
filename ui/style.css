@@ -38,7 +38,7 @@ nav {
 }
 
 .right {
-  background-color: beige;
+  background-color: dodgerblue;
   grid-area: 4 / 9 / 9 / 10;
   height: 2000px;
 }
