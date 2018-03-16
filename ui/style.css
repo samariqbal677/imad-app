@@ -80,11 +80,11 @@ marquee{
 
 
 .right {
-  background-color: beige;
+  background-color: green;
   grid-area: 4 / 5 / 9 / 7;
 }
 
 .left {
   background-color: blue;
-  grid-area: 4 / 5 / 9 / 7;
+  grid-area: 4 / 1 / 5 / 7;
 }
