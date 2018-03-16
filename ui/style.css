@@ -28,6 +28,7 @@ header {
 nav {
   background-color: beige;
   grid-area: 3 / 1 / 4 / 10;
+  height: 100px;
 }
 
 .left {
