@@ -6,7 +6,7 @@ body{
   display: grid;
   position: relative;
   margin: auto;
-  grid-gap: 10px;
+  grid-gap: 2px;
 }
 
 h1, h2, h3 {
