@@ -49,7 +49,7 @@ nav {
 footer {
   background-color: cyan;
   grid-area: 9 / 1 / 13 / 10;
-  height: 200px;
+  height: 100px;
 }
 
 .X{
