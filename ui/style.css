@@ -71,20 +71,3 @@ marquee{
     color:blue;
 }
 
-.P{
-    display: grid;
-  position: relative;
-  margin: auto;
-  grid-gap: 50px;
-}
-
-
-.right {
-  background-color: green;
-  grid-area: 4 / 6 / 9 / 7;
-}
-
-.left {
-  background-color: blue;
-  grid-area: 4 / 1 / 9 / 2;
-}
