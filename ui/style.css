@@ -70,3 +70,12 @@ marquee{
     color:blue;
 }
 
+.left {
+  background-color: dodgerblue;
+  grid-area: 4 / 1 / 9 / 2;
+}
+
+.right {
+  background-color: beige;
+  grid-area: 4 / 6 / 9 / 7;
+}
