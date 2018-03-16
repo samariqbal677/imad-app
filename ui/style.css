@@ -33,7 +33,7 @@ nav {
 
 .overlap {
   background-color: lightcoral;
-  grid-area: 4 / 3 / 9 / 5;
+  grid-area: 4 / 2.1 / 9 / 5.9;
   z-index: 5;
 }
 
