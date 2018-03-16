@@ -84,3 +84,7 @@ marquee{
   grid-area: 4 / 5 / 9 / 7;
 }
 
+.left {
+  background-color: beige;
+  grid-area: 4 / 5 / 9 / 7;
+}
