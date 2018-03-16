@@ -76,7 +76,7 @@ marquee{
   max-width: 900px;
   position: relative;
   margin: auto;
-  grid-gap: 100px;
+  grid-gap: 500px;
 }
 
 .left {
