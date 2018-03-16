@@ -28,7 +28,7 @@ header {
 nav {
   background-color: beige;
   grid-area: 3 / 1 / 4 / 10;
-  height: 50px;
+  height: 40px;
 }
 
 .left {
