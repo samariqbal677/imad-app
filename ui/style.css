@@ -2,9 +2,6 @@ body{
     background-color: green;
 }
 
-
-
-
 .container {
   display: grid;
   position: relative;
