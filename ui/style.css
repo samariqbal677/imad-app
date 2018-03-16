@@ -48,7 +48,7 @@ nav {
 }
 
 footer {
-  background-color: dodgerblue;
+  background-color: cyan;
   grid-area: 9 / 1 / 13 / 10;
   height: 100px;
 }
