@@ -30,19 +30,19 @@ nav {
 
 .left {
   background-color: dodgerblue;
-  grid-area: 4 / 1 / 9 / 2;
+  grid-area: 4 / 1 / 9 / 3;
   height: 2000px;
 }
 
 .right {
   background-color: dodgerblue;
-  grid-area: 4 / 9 / 9 / 10;
+  grid-area: 4 / 8 / 9 / 10;
   height: 2000px;
 }
 
 .overlap {
   background-color: lightcoral;
-  grid-area: 4 / 2/ 9 / 9;
+  grid-area: 4 / 3/ 9 / 8;
   z-index: 5;
   height: 2000px;
 }
