@@ -1,13 +1,17 @@
 body{
     background-color: lightyellow;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
 }
 
 .container {
   display: grid;
-  position: 0;
-  margin: 0;
+  position: relative;
+  margin: auto;
   grid-gap: 0px;
-  margin-top: 0;
 }
 
 h1, h2, h3 {
@@ -21,7 +25,6 @@ header {
    height: 400px;
   background-position: center center;
   background: url(http://www.makecovers.com/wp-content/uploads/2015/04/Smoke-Ships-Facebook-Covers.jpg);
-  margin-top: 0;
 }
 
 nav {
