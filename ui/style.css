@@ -52,3 +52,7 @@ footer {
   grid-area: 9 / 1 / 13 / 10;
   height: 200px;
 }
+
+.X{
+    color: blue ;
+}
