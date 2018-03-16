@@ -34,8 +34,12 @@ margin: 0 auto;
 font-family: Garamond Header;
 padding-left: 20px;
 padding-right: 20px;
+}  
 
-}   
+header { background-image: url(http://www.makecovers.com/wp-content/uploads/2015/04/Smoke-Ships-Facebook-Covers.jpg);
+  height: 400px;
+  background-position: center center;
+}
 .comment {
     margin-left: 10px;
     padding-bottom: 10px;
@@ -57,11 +61,6 @@ marquee{
     color : red;
 }
 
-.header {
-  background-image: url(http://www.makecovers.com/wp-content/uploads/2015/04/Smoke-Ships-Facebook-Covers.jpg);
-  height: 400px;
-  background-position: center center;
-}
 
 .X{
     color:blue;
