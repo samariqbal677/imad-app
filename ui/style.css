@@ -1,90 +1,43 @@
-
-body {
-    font-family: Garamond Header;
-    margin-top: 60px;
-     padding: 0;
-  margin: 0;
-  background: #F7F7F7;
-  /* Old browsers */
-  background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
-}
-
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 200%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 300px;
-}
-.container{
-max-width: 800px;
-margin: 0 auto;
-font-family: Garamond Header;
-padding-left: 20px;
-padding-right: 20px;
-display: grid;
+.container {
+  display: grid;
+  max-width: 900px;
   position: relative;
   margin: auto;
   grid-gap: 10px;
-}  
+}
 
-header { background-image: url(http://www.makecovers.com/wp-content/uploads/2015/04/Smoke-Ships-Facebook-Covers.jpg);
-  height: 400px;
-  background-position: center center;
+h1, h2, h3 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
   background-color: dodgerblue;
   grid-area: 1 / 1 / 3 / 7;
 }
-.comment {
-    margin-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+
+nav {
+  background-color: beige;
+  grid-area: 3 / 1 / 4 / 7;
 }
-
-.commenter {
-    font-style: italic;
-    font-size: 0.8em;
-}
-
-#comment_form {
-    margin-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-marquee{
-    color : red;
-}
-
-
-.X{
-    color:blue;
-}
-
-.c{
-    color:blue;
-}
-
-
-
 
 .left {
-  background-color: green;
+  background-color: dodgerblue;
   grid-area: 4 / 1 / 9 / 2;
 }
 
 .right {
-  background-color: blue;
+  background-color: beige;
   grid-area: 4 / 6 / 9 / 7;
+}
+
+.overlap {
+  background-color: lightcoral;
+  grid-area: 4 / 3 / 9 / 5;
+  z-index: 5;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: 9 / 1 / 13 / 7;
 }
