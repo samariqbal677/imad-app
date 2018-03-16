@@ -5,7 +5,7 @@ body{
 .container {
   display: grid;
   position: relative;
-  margin: auto;
+  margin: 0;
   grid-gap: 2px;
 }
 
