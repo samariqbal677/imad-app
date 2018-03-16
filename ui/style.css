@@ -1,7 +1,7 @@
 .container {
   display: grid;
   position: relative;
-  
+  margin: auto;
   grid-gap: 10px;
 }
 
@@ -13,36 +13,30 @@ h1, h2, h3 {
 header {
   background-color: grey;
   grid-area: 1 / 1 / 3 / 10;
-  margin: 0;
 }
 
 nav {
   background-color: beige;
   grid-area: 3 / 1 / 4 / 10;
-  margin: auto;
 }
 
 .left {
   background-color: dodgerblue;
   grid-area: 4 / 1 / 9 / 2;
-  margin: auto;
 }
 
 .right {
   background-color: beige;
   grid-area: 4 / 9 / 9 / 10;
-  margin: auto;
 }
 
 .overlap {
   background-color: lightcoral;
   grid-area: 4 / 2/ 9 / 9;
   z-index: 5;
-  margin: auto;
 }
 
 footer {
   background-color: dodgerblue;
   grid-area: 9 / 1 / 13 / 10;
-  margin: auto;
 }
