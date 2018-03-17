@@ -12,6 +12,8 @@ body{
   position: relative;
   margin: auto;
   grid-gap: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1, h2, h3 {
