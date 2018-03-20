@@ -70,7 +70,8 @@ footer {
 }
 
 .center-bottom{
-    text-align: center bottom;    
+    text-align: center bottom; 
+    height: 150px;
 }
 
 .C{
