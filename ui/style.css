@@ -51,6 +51,7 @@ nav {
   background-color: lightyellow;
   grid-area: 4 / 4/ 9 / 7;
   height: 1120px;
+  overflow: scroll;
 }
 
 footer {
