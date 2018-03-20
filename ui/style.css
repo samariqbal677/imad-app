@@ -38,19 +38,19 @@ nav {
 .left {
   background-color: lightyellow;
   grid-area: 4 / 1 / 9 / 4;
-  height: 1100px;
+  height: 1080px;
 }
 
 .right {
   background-color: lightyellow;
   grid-area: 4 / 7 / 9 / 10;
-  height: 1100px;
+  height: 1080px;
 }
 
 .overlap {
   background-color: lightyellow;
   grid-area: 4 / 4/ 9 / 7;
-  height: 1100px;
+  height: 1080px;
   overflow: scroll;
 }
 
