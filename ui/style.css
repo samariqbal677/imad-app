@@ -50,7 +50,7 @@ nav {
 .overlap {
   background-color: lightyellow;
   grid-area: 4 / 4/ 9 / 7;
-  height: 9600px;
+  height: 960px;
   overflow: scroll;
 }
 
