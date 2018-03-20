@@ -38,7 +38,7 @@ nav {
 .left {
   background-color: lightyellow;
   grid-area: 4 / 1 / 9 / 4;
-  height: 1000px;
+  height: 980px;
 }
 
 .right {
