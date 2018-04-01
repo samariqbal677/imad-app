@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-  background-color: cyan;
+  background-color: aliceblue;
   grid-area: 3 / 1 / 4 / 10;
   height: 100px;
 }
