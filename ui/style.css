@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 header {
-  background-color: lightyellow;
+  background-color: cyan;
   grid-area: 1 / 1 / 3 / 10;
    height: 295px;
   background-position: center center;
@@ -30,25 +30,25 @@ header {
 }
 
 nav {
-  background-color: lightyellow;
+  background-color: cyan;
   grid-area: 3 / 1 / 4 / 10;
   height: 100px;
 }
 
 .left {
-  background-color: lightyellow;
+  background-color: cyan;
   grid-area: 4 / 1 / 9 / 4;
   height: 1000px;
 }
 
 .right {
-  background-color: lightyellow;
+  background-color: cyan;
   grid-area: 4 / 7 / 9 / 10;
   height: 1000px;
 }
 
 .overlap {
-  background-color: lightyellow;
+  background-color: cyan;
   grid-area: 4 / 4/ 9 / 7;
   height: 1000px;
   overflow: scroll;
