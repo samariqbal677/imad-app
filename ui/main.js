@@ -1,7 +1,7 @@
 function loadLoginForm () {
     var loginHtml = `
         <input type="file" onchange="previewFile()"><br>
-        <img src="" height="200" alt="Image preview...">
+        <img src="" height="200">
         <h3>Please Register To Comment/Discuss On My WebPages</h3>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" placeholder="password" />
