@@ -92,7 +92,6 @@ function loadLoginForm () {
     };
 }
 
-
 function previewFile(){
        var preview = document.querySelector('img');
        var file    = document.querySelector('input[type=file]').files[0];
@@ -108,16 +107,6 @@ function previewFile(){
            preview.src = "";
        }
   }
-
-
-
-
-
-
-
-
-
-
 
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
