@@ -1,5 +1,7 @@
 function loadLoginForm () {
     var loginHtml = `
+        <input type="file" onchange="previewFile()"><br>
+        <img src="" height="200" alt="Image preview...">
         <h3>Please Register To Comment/Discuss On My WebPages</h3>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" placeholder="password" />
@@ -89,6 +91,33 @@ function loadLoginForm () {
     
     };
 }
+
+
+function previewFile(){
+       var preview = document.querySelector('img');
+       var file    = document.querySelector('input[type=file]').files[0];
+       var reader  = new FileReader();
+
+       reader.onloadend = function () {
+           preview.src = reader.result;
+       };
+
+       if (file) {
+           reader.readAsDataURL(file);
+       } else {
+           preview.src = "";
+       }
+  }
+
+
+
+
+
+
+
+
+
+
 
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
