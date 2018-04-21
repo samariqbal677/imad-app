@@ -4,6 +4,7 @@ function loadLoginForm () {
         <img src="" "width": 200px "height": 200px >
         <h3>Please Register To Comment/Discuss On My WebPages</h3>
         <input type="text" id="username" placeholder="username" />
+        <br/>
         <input type="password" id="password" placeholder="password" />
         <br/><br/>
         <input type="submit" id="login_btn" value="Login" />
