@@ -2,7 +2,7 @@ function loadLoginForm () {
     var loginHtml = `
         <input type="file" onchange="previewFile()"><br>
         <img src="" "width": 200px "height": 200px >
-        <h3>Please Register To Comment/Discuss On My WebPages</h3>
+        <h3>Please Register To Comment/Discuss</h3>
         <input type="text" id="username" placeholder="username" />
         <br/>
         <input type="password" id="password" placeholder="password" />
