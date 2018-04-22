@@ -3,7 +3,7 @@ function loadLoginForm () {
         <input type="file" onchange="previewFile()"><br>
         <img src="" "width": 200px "height": 200px >
         <h3>Please Register To Comment/Discuss</h3>
-        <h3>On WebPages</h3>
+        <h3>On Web Pages</h3>
         <input type="text" id="username" placeholder="username" />
         <br/>
         <br/>
